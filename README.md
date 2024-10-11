@@ -9,7 +9,7 @@ Cada iteração ajusta o valor com base na função e sua derivada, refinando o 
 Para compilar use: `gcc -o mn main.c -lm `
   - -lm pois estamos usando biblioteca matematica
 
-  Já para roda use `mn 0.5 1e-12` 
+  Já para roda use `./mn 0.5 1e-12` 
   - Primeiro primeiro parametro é o executável
   - O segundo é a aproximação inicial
   - O ultimo é o erro permitido
